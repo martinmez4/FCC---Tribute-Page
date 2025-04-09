@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	background-color: #f3f0e8;
+	color: #4a4a4a;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #cce5d0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header,
+h1,
+h2 {
+	color: #264d3c;
+	margin: 0;
+	padding: 10px 0;
+}
+
+p,
+li {
+	color: #4a4a4a;
+}
+
+#img-div {
+    margin: 60px auto;
+}
+
+#image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    margin-top: 8px;
+	margin-bottom: 30px;
+
+}
+
+#tribute-info {
+	margin: 50px auto;
+	max-width: 750px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+#list-of-movies {
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+}
+
+li {
+	margin: 10px 0;
+	font-size: 1.1rem;
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	max-width: 1000px;
+	margin: 30px auto;
+	padding: 20px;
+
+}
+
+#gallery img {
+	max-width: 450px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease-in-out;
+}
+
+#gallery img:hover {
+	transform: scale(1.05);
+}
+
+#gallery::after {
+	content: "";
+	width: 450px;
+}
+
+#more-info button {
+	background-color: #264d3c;
+	color: #f3f0e8;
+	padding: 12px 25px;
+	border-radius: 7px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-bottom: 30px;
+	border: none;
+}
+
+#more-info button:hover {
+	background-color: #1f734e;
+}
+
+footer {
+	height: 100px;
+	background-color: #264d3c;
+	color: #f3f0e8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+footer p {
+	color: #f3f0e8;
+}
